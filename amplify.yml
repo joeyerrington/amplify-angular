@@ -8,7 +8,7 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: dist/amplify-angular-test
+    baseDirectory: src
     files:
       - '**/*'
   cache:
